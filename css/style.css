@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  line-height: 1.5;
+  color: aliceblue;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: rgb(28, 27, 27);
+
+}
+.card{
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom right,rgb(0, 255, 208),rgb(170, 0, 255));
+    text-align: center;
+
+}
+.search-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.search-form input{
+    font-size: 16px;
+    padding:1rem 1.3rem;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    background-color: aliceblue;
+    width: 100%;
+}
+#search_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.imgbox{
+    text-align: center;
+   width: 200px;
+   height: 200px;
+   margin: auto;
+}
+
+.degree{
+    font-size: 70px;
+    font-weight: bold;
+}
+.address{
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+   
+}
+.details{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.details p{
+    font-size: 11px;
+    margin-top: 5px;
+    /* text-align: right; */
+}
+.w div{
+    display: flex;
+    align-items: flex-end;
+    gap: .5rem;
+}
+.w i{
+    font-size: 35px;
+}

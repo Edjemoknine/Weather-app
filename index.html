@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Weather</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+           <div class="search-form">
+            <input type="text" id="search_input" placeholder="Enter Your City">
+            <a href="#" id="search_btn"><i class="fas fa-search"></i></a>
+           </div>
+           <div class="affichage">
+            <div class="imgbox"><img src="https://openweathermap.org/img/wn/01d@2x.png" width=200></div>
+            <h1 class="degree">22°c</h1>
+            <h2 class="address">Bengaluru</h2>
+            <div class="details">
+                <div class="w ">
+                    <div>
+                        <i class="fas fa-droplet"></i>
+                        <span id="humidity">53%</span>
+                    </div>
+                    <p>Humididty</p>
+                </div>
+                <div class="w">
+                    <div>
+                        <i class="fas fa-wind"></i>
+                        <span id="wind">5.66 km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+           </div>
+
+
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
